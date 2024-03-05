@@ -8,7 +8,7 @@ static boolean isArmstrong(int n)
 int temp, digits=0, last=0, sum=0;   
 //assigning n into a temp variable  
 temp=n;   
-//loop execute until the condition becomes false  
+//loop execute until the condition becomes the answer false 
 while(temp>0)    
 {   
 temp = temp/10;   
