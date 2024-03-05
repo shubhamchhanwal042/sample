@@ -17,7 +17,7 @@ digits++;
 temp = n;   
 while(temp>0)   
 {   
-//determines the last digit from the number      
+//determines the last digit from the numbers   
 last = temp % 10;   
 //calculates the power of a number up to digit times and add the resultant to the sum variable  
 sum +=  (Math.pow(last, digits));   
